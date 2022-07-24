@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=League+Spartan:wght@400;500;700&family=Nunito+Sans&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+    font-family: nunito sans;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: black;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+.footer-nav img:hover {
+    transition: all 2s ease;
+}
+
+
+a:hover {
+    font-size: larger;
+    transition: .5s ease;
+}
+
+button {
+    border: none;
+}
+
+button:hover {
+    font-size: larger;
+    transition: .5s ease;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: rgb(55, 39, 103);
+    width: 80%;
+}
+
+.drop-down-bar {
+    visibility: hidden;
+}
+
+.nav-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1 rem;
+    width: 90%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 1rem;
+    width: 100%;
+}
+
+ul i {
+    border: 2px green solid;
+    visibility: hidden;
+    margin: 0 auto;
+}
+
+ul li button {
+    padding: 10px 20px;
+    background-color: rgb(55, 39, 103);
+    color: white;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.main-page {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: 3rem;
+
+}
+
+.feature a {
+    color: white;
+}
+
+.page .feature {
+    padding: 5px 10px;
+    background-color: rgb(55, 39, 103);
+    color: white;
+    width: 75%;
+    border-radius: 30px;
+}
+
+.page h1 {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.page p {
+    padding-bottom: 2rem;
+}
+
+.page input {
+    padding: 10px 10px;
+}
+
+.page button {
+    padding: 10px 10px;
+    background-color: rgb(55, 39, 103);
+    color: white;
+}
+
+.image img {
+    width: 250px;
+}
+
+.footer-nav {
+    padding-top: 4rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer p {
+    padding-bottom: 5px;
+}
+
+@media(max-width:800px) {
+
+    nav ul {
+        display: none;
+        visibility: hidden;
+        width: 80%;
+
+    }
+
+    body {
+        width: 100%;
+    }
+
+    .bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .drop-down-bar {
+        visibility: visible;
+
+    }
+
+    .nav-image {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .image img {
+        visibility: hidden;
+        display: none;
+    }
+
+    .main-page .page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-width: 100%;
+        margin: 0 auto;
+    }
+
+    .join-waitlist {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer-logo {
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    /* .page h1 {
+        margin: 0 auto;
+        width: 80%;
+    } */
